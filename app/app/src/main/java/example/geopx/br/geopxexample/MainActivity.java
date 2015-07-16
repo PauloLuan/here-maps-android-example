@@ -1,10 +1,12 @@
 package example.geopx.br.geopxexample;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 
+import com.here.android.mpa.common.GeoCoordinate;
+import com.here.android.mpa.common.OnEngineInitListener;
+import com.here.android.mpa.mapping.Map;
+import com.here.android.mpa.mapping.MapFragment;
 
 public class MainActivity extends Activity {
 
