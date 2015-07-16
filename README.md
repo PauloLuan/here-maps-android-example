@@ -1,4 +1,6 @@
-# here-maps-android-example
-Here Maps Android Example application
+# Here Maps Android Example application
 
-Todo: 
+
+# Resources & docs
+
+[Creating a Simple Application Using the HERE SDK](https://developer.here.com/mobile-sdks/documentation/android/topics/app-simple.html)
