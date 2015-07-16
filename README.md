@@ -5,7 +5,7 @@
 
 In order to execute the application, you must add the required HERE SDK resources as follows:
 
-1.  From the directory where you installed the `HERE SDK`, copy the contents of the `HERE-sdk/libs/` folder, except `HERE-sdk-javadoc.jar`, to your project's `libs/` folder.
+1.  From the directory where you installed the `HERE SDK`, copy the contents of the `HERE-sdk/libs/` folder, except `HERE-sdk-javadoc.jar`, to your project's `app/app/libs/` folder (the same folder as the src).
 
 2.  Next, download the JTS Topology Suite (version 1.13 or later) from [http://sourceforge.net/projects/jts-topo-suite/](http://sourceforge.net/projects/jts-topo-suite/), extract its contents, and add the `jts-_.jar_` _library into the `libs/` folder of your `Eclipse` project._
 
