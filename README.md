@@ -2,7 +2,7 @@
 
 ## Getting the SDK
 
-You have to create an account at [Here website](https://developer.here.com/myapps/create/choose-plan#/) and create a new app in order to obtain your `app_id` and `app_code` at [you app's page](https://developer.here.com/myapps).
+You have to create an account at [Here website](https://developer.here.com/myapps/create/choose-plan#/) and create a new app in order to obtain your `app_id` and `app_code` at [your app's page](https://developer.here.com/myapps).
 
 ## Add Libraries to Your Project
 
