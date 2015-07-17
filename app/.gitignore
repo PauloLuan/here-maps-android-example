@@ -30,3 +30,6 @@ proguard/
 *.iml
 ## Directory-based project format:
 .idea/
+
+app/libs/
+app/src/main/jniLibs/
