@@ -9,6 +9,45 @@ In order to execute the application, you must add the required HERE SDK resource
 
 	copy the contents of the `HERE-sdk/libs/armeabi-v7a` folder to your project's `app/src/main/jniLibs/armeabi` folder. You will need to create the jniLibs and armeabi subfolders.
 
+	Directory structure should be something like that:
+
+```
+	├───libs
+	│	 	gson-2.3.1.jar
+	│	    HERE-sdk.jar
+	│	    HERE-sdk.jar.properties
+	│	    jts-1.13.jar
+	└───src
+	    └───main
+	        ├───java
+	        │   └───com
+	        │       └───here
+	        │           └───android
+	        │               └───tutorial
+	        │                   └───basicmap
+		    ├───jniLibs                                                     
+		    │   └───armeabi                                                 
+		    │           libc++_shared.so                                    
+		    │           libCertResourcesPkg.so                              
+		    │           libcrypto.so                                        
+		    │           libLohitIndicFontPkg.so                             
+		    │           libMapsEngineResourcePkg.so                         
+		    │           libMAPSJNI.so                                       
+		    │           libNanumGothicFontPkg.so                            
+		    │           libPureArabicFontPkg.so                             
+		    │           libPureChineseFontPkg.so                            
+		    │           libPureIndicSouthFontPkg.so                         
+		    │           libPureThaiFontPkg.so                               
+		    │           libSdkResourcePkg.so                                
+		    │           libssl.so      
+		    │                                     
+	        └───res
+	            ├───drawable-mdpi
+	            ├───layout
+	            ├───menu
+	            └───values
+```
+
 2.  Next, download the JTS Topology Suite (version 1.13 or later) from [http://sourceforge.net/projects/jts-topo-suite/](http://sourceforge.net/projects/jts-topo-suite/), extract its contents, and add the `jts-.jar` library into the `libs/` folder of your `Eclipse` project.
 
 4.  If you plan on extending this application with `HERE Places` or Routing functionality, add the `google-gson` library (release 2.2.4 or a compatible version) into your project. One way to do this is to download the `google-gson-`-release.zip file from [gson github repository](https://github.com/google/gson), unzip the ZIP archive, and then copy the `gson-*.jar` (not `gson-`-sources.jar or `gson-*-javadoc.jar`) into your project `libs/` folder. The `google-gson` library is required for these operations.
